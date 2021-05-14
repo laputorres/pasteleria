@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- fuentes de texto -->
+
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-sm navbar-dark shadow p-3 mb-5 bg-body rounded" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <H1>PASTELERIA</H1>
+            </a>
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PRODUCTOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SUCURSALES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARRUSEL -->
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="./img/pasteleria-banner1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/pasteleria-banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/pasteleria-banner3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!-- PEDIDOS A DOMICILIO -->
+
+    <div class="card w- d-flex bg-primary" id="card-pedido">
+        <h4 class=”card-title”>RECOGE TU PEDIDO EN SUCURSAL</h4>
+        <div class="card-body"> Realiza tu pedido con minimo 4 dias de antelacion en cualquiera de nuestras SUCURSALES o
+            en nuestro
+            formulario de pedido.</div>
+    </div>
+    </div>
+
+
+
+
+    <!-- CUADROS DE INFORMACION -->
+    <div class="row w-250">
+        <div class="card card-info" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">FACTURAS</h5>
+                <p class="card-text">La facturacion se realiza antes del ultimo dia del mes en el que se realizo la
+                    compra, visite alguna
+                    de
+                    nuestras sucursales.</p>
+                <a href="#" class="btn btn-primary">Obtener Factura</a>
+            </div>
+        </div>
+
+        <div class="card card-info" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">SUCURSALES</h5>
+                <p class="card-text">tenemos precencia en diferentes estados con nuestras 5 sucursales al rededor de 3
+                    ciudades y seguimos
+                    en expancion.</p>
+                <a href="#" class="btn btn-primary">Ver Sucursales</a>
+            </div>
+        </div>
+
+        <div class="card card-info" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Visita nuestas redes</h5>
+                <p class="card-text">Para enterarte de promociones y nuevos productos visita cualquiera de nuestras
+                    redes sociales o
+                    registrate para recibir noticias.</p>
+                <a href="#" class="btn btn-primary">Ver Contacto</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- formulario -->
+    <h3>Contactanos para que te ayudemos a encontrar el hotel ideal.</h3>
+    <div class="formulario">
+        <h2>CONTACTANOS</h2>
+        <form action="REGISTRATE">
+            <LAbel for="Nombre">
+                <span>Nombre</span><br>
+                <input type="text" id="nombre" placeholder="escribe tu nombre"><br>
+            </LAbel>
+
+            <label for="Telefono">
+                <span>Telefono</span><br>
+                <input type="tel" id="telefono" placeholder="+1234567890"><br>
+            </label>
+
+            <label for="correo">
+                <span>Correo Electronico</span><br>
+                <input type="email" id="correo" placeholder="email@ejemplo.com"><br>
+            </label>
+
+            <label for="dias">
+                <h3>Dias de reservacion</h3><br>
+                <span>Desde</span>
+                <span id="hasta">Hasta</span>
+                <input type="date" id="fecha"> <input type="date" id="fecha">
+            </label>
+            <input type="submit" id="button">
+        </form>
+    </div>
+
+    <!-- footer -->
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+
+</html>

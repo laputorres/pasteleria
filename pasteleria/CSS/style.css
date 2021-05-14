@@ -1,0 +1,143 @@
+
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600;700&display=swap');
+
+
+/* DEFAULT */
+* {
+    margin: 0;
+    width: 100%;
+    --color-primary: #f79c7b;
+    --color-secundary: #EFD9E8;
+font-family: Newsreader,Arial;
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
+/* MENU */
+
+.container-header {
+    background: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10vh;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+#navbar {
+    background-color: var(--color-primary) !important;
+    position: fixed;
+    margin-top: -70px;
+    z-index: 10;
+    height: 70px;
+
+}
+
+
+
+/* CARRUSEL */
+
+
+
+.carousel {
+    margin-top: 70px;
+}
+
+.carousel-item {
+    transition: transform 2s ease;
+}
+
+/* PEDIDOS A DOMICILIO */
+
+#card-pedido {
+    overflow: hidden;
+    position: relative;
+    background: var(--color-secundary) !important;
+    padding-bottom: 15em;
+    padding-top: 3rem;
+    text-align: center;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+}
+
+#card-pedido h4 {
+    font-size: 4rem;
+    font-family: 'Dancing Script';
+}
+
+
+/* CUADROS DE INFORMACION */
+
+.card-info{
+    background: var(--color-primary);
+    margin:auto;
+    width: 30%!important;
+    margin-top: -10rem;
+}
+
+
+
+/* FORMULARIO DE CONTACTO */
+
+.formulario {
+    width: 30%;
+    height: 30rem;
+    background: var(--color-primary);
+    margin: 2rem;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+.formulario input {
+    width: 50%;
+    margin: 1rem 20%;
+}
+
+.formulario span {
+    width: 50%;
+    color: teal;
+    margin: 20%;
+    text-transform: uppercase;
+}
+
+#hasta {
+    margin: 0;
+    width: 100px;
+}
+
+.formulario h3 {
+    width: 50%;
+    color: teal;
+    margin: 0 20%;
+    text-transform: uppercase;
+}
+
+.formulario h2 {
+    width: 50%;
+    color: teal;
+    margin: 0 20%;
+
+}
+
+#fecha {
+    width: 20%;
+
+}
+
+#button {
+    background: var(--color-secundary);
+    width: 40%;
+    margin: 0 30%;
+    border-radius: 20px;
+    padding: 5px 0;
+}
